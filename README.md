@@ -1,6 +1,6 @@
 # ExternalClientReviewSamples
 
-This collection of scripts shows you how to upload to and sync metadata such as comments to/from popular media sharing services.
+This collection of scripts shows you how to use FLAPI to upload media and metadata (such as marker notes and comments) to/from popular media sharing services for virtual client reviews.
 
 ## Installation
 These examples will only work against the FLAPI distributed with `branch-dev-flapi-20` (internal name). A Filmlight staff member will advise you on how to install this build.
@@ -23,13 +23,13 @@ With the virtual environment active, install FLAPI with `pip install /Applicatio
 
 ### Installing Required Libraries
 
-These example uses some external libraries. To install them, `pip3 install -r requirements.txt` within your virtueal environement (see above). 
+These examples use a few external libraries. To install them, `pip3 install -r requirements.txt` within your virtueal environement (see above). 
 
-See the sections below for each sharing service for notes on installing any additional Python libraries they it require.
+See the sections below for each sharing service for notes on installing any additional Python libraries it may require.
 
 ### Starting the FLAPI Service
 
-Restart all Daylight/Baselight application services by changing to the `bin` directory inside the installation directory and running sudo `./fl-service restart`. Make sure in particular that the `flapi` service starts without error.
+Restart all Daylight/Baselight application services by changing to the `bin` directory inside the installation directory and running `sudo ./fl-service restart`. Make sure in particular that the `flapi` service starts without error.
 
 ## A Note on Rendering
 
