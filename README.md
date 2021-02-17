@@ -1,6 +1,6 @@
 # ExternalClientReviewSamples
 
-This collection of scripts shows you how to use FLAPI to upload media and metadata (such as marker notes and comments) to/from popular media sharing services for virtual client reviews.
+This collection of scripts shows you how to use FLAPI to sync media and metadata (such as marker notes and comments) with some popular media sharing services in order to conduct virtual client reviews.
 
 ## Installation
 These examples will only work against the FLAPI distributed with `branch-dev-flapi-20` (internal name). A Filmlight staff member will advise you on how to install this build.
