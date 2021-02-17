@@ -220,7 +220,7 @@ class FLAPIManager():
         qm = self.flapi_conn.QueueManager.create_local()
 
         # Submit render job to Queue
-        print("Submitting to queue . . .  (Note that the BL/DL GUI must be running in order for the render to progress.")
+        print("Submitting to queue . . .  (Note that the BL/DL GUI must be running in order for the render to progress.)")
         opinfo = self.render_setup.submit_to_queue(qm, "Frame.io render deliverable: %s:%s:%s" % (
             self.jobs_host, self.job_name, self.scene_name))
 

@@ -4,7 +4,6 @@ import time
 import bullet
 import os
 from bullet import Bullet, ScrollBar, YesNo, Input, colors
-from tqdm import tqdm
 import glob
 from frameioclient import FrameioClient
 from getpass import getpass
