@@ -50,3 +50,8 @@ See this repo's `frame.io` directory.
 This script adds a movie and marker notes from the parent BL/DL scene to Frame.io for client review. You can choose an already rendered movie or allow the script to render out whatever deliverable you choose from the parent scene (so long as it produces a movie file).
 
 The script authenticates your account with Frame.io and places the BL/DL-generated movie inside a Frame.io project of your choosing. It creates Frame.io comments from marker notes on frame numbers corresponding to those in the parent BL/DL scene, thus allowing the colourist to start a dialog with the project reviewers. It also creates a Frame.io project review link upon request."
+
+### `sync_comments_from_frameio.py`
+
+This script receives comments from a Frame.io project to which you've previously uploaded as an asset for review via this script's companion, `sharing_to_frameio.py`. It authenticates your account with Frame.io, scrapes comments from the asset of your choosing, then inserts them as marker notes in the BL/DL scene that generated the Frame.io asset. In cases where the BL/DL scene already has a marker note at a given frame, the script appends to this note, referencing author and creation time.
+
