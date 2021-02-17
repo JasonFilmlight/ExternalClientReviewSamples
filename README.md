@@ -25,7 +25,7 @@ With the virtual environment active, install FLAPI with `pip install /Applicatio
 
 These examples use a few external libraries. To install them, `pip3 install -r requirements.txt` within your virtueal environement (see above). 
 
-See the sections below for each sharing service for notes on installing any additional Python libraries it may require.
+See the sections below for each sharing service for notes on installing any additional Python libraries that these services may require.
 
 ### Starting the FLAPI Service
 
