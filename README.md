@@ -37,6 +37,8 @@ Currently, FLAPI cannot render independently of the Baselight/Daylight render se
 
 ## Frame.io Scripts
 
+See this repo's `frame.io` directory.
+
 ### Setup
 
 1. You'll need a developer key to run these scripts. See [their docs here](https://developer.frame.io/docs/getting-started/authentication#developer-tokens).
